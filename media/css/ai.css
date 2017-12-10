@@ -1,0 +1,103 @@
+/* body { */
+/*   /1* margin-bottom: 150px; *1/ */
+/*   /1* margin-top: 100px !important; *1/ */
+/*   height: 100%; */
+/* } */
+body > .container {
+    padding: 60px 15px 0;
+}
+
+h1, h2 {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.ai-navbar {
+    border-radius: 0px;
+    background-image: none;
+    background-color: white;
+    height: 80px;
+
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.ai-white-color {
+	color: white
+}
+
+.ai-white-color a {
+	color: white
+}
+
+.ai-logo {
+  height: 60px;
+  top: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul.t-main-navbar-nav {
+  height: 100%;
+	margin-left: 10px;
+  /* background-color: red; */
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+ul.t-main-navbar-nav  li {
+	display: inline-block;
+	float:none;
+}
+
+ul.t-main-navbar-nav  li a {
+	display: block;
+	line-height: 50px;
+	color: black !important;
+	text-shadow: none !important;
+}
+
+.ai-login {
+    height: 100%;
+    line-height: 65px;
+}
+
+
+.ai-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.ai-background {
+	background: #303030;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+	background: #303030;
+}
+
+
+
+
+
