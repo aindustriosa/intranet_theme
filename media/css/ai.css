@@ -77,6 +77,24 @@ ul.t-main-navbar-nav  li a {
 .ai-background {
 	background: #303030;
 }
+
+.ai-white {
+	color: white;
+}
+
+.ai-label {
+  padding: .2em .6em .3em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
