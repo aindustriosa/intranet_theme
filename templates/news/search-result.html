@@ -12,11 +12,13 @@
     </div>
 
     <div class="panel-body t-search-result-body">
-        <p class="item-content">
+
             {% if news.summary %}
-                {% blocktrans with s=news.summary|striptags|truncatewords:20|safe %}{{ s }}{% endblocktrans %}
+                <p class="item-content">
+                  {{ news.summary }}
+                </p>
             {% else %}
-                {% blocktrans with s=news.body|striptags|truncatewords:20|safe %}{{ s }}{% endblocktrans %}
+               {% blocktrans with body=news.body|safe %}{{ body }}{% endblocktrans %}
             {% endif %}
         </p>
     </div>
